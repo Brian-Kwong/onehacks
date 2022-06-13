@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.AmazingHealth.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AmazingHealth.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        style="@style/Widget.AmazingHealth.AppWidget.InnerView"
+        android:layout_width="331dp"
+        android:layout_height="237dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/appwidget_text"
+        android:text="Steps :  \nWater : \nHows Your Day Been:"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="260dp"
+        android:layout_height="107dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-302dp"
+        android:layout_marginBottom="334dp"
+        android:layout_toEndOf="@+id/appwidget_text" />
+</RelativeLayout>
