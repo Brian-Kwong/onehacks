@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/Home">
+    <fragment
+        android:id="@+id/History"
+        android:name="com.code.amazinghealth.History"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_history2_to_home8"
+            app:destination="@id/Home" />
+    </fragment>
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.code.amazinghealth.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home8_to_history22"
+            app:destination="@id/History" />
+    </fragment>
+</navigation>

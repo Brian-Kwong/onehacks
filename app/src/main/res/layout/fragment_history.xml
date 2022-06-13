@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/History"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFC4A3"
+    tools:context=".History">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="568dp"
+        android:text="Clear \n Back to Previous Page"
+        app:icon="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/walkingtextoutputbox"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="452dp"
+        android:fontFamily="monospace"
+        android:text="N/A"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/watericon2"
+        android:layout_width="117dp"
+        android:layout_height="121dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="312dp"
+        android:foreground="@drawable/watericon" />
+
+    <View
+        android:id="@+id/urdayicon3"
+        android:layout_width="112dp"
+        android:layout_height="102dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="218dp"
+        android:layout_marginBottom="211dp"
+        android:foreground="@drawable/smile"
+        app:navGraph="@navigation/nav" />
+
+    <TextView
+        android:id="@+id/urdaytextoutputbox"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="246dp"
+        android:fontFamily="monospace"
+        android:text="N/A"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/stepicon2"
+        android:layout_width="109dp"
+        android:layout_height="91dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="218dp"
+        android:layout_marginBottom="437dp"
+        android:foreground="@drawable/steps" />
+
+    <TextView
+        android:id="@+id/watertextoutputbox"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="346dp"
+        android:fontFamily="monospace"
+        android:text="N/A"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/urdayicon2"
+        android:layout_width="147dp"
+        android:layout_height="161dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="38dp"
+        android:src="@drawable/frog" />
+
+</RelativeLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/Home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DFC4A3"
+        tools:context=".Home">
+
+    <TextView
+        android:id="@+id/welcomemessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="602dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/good_evening"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="544dp"
+        android:text="&quot;Backflip week, go treat yourself to a trampoline park.!&quot;"
+        android:textAlignment="center"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/numberofstepsinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="291dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/number_of_steps_today"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#6D4C41" />
+
+    <EditText
+        android:id="@+id/waterinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="221dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/amount_of_water"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#6D4C41" />
+
+    <EditText
+        android:id="@+id/howsurdayinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="155dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hows_ur_day"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#6D4C41" />
+
+    <View
+        android:id="@+id/stepicon"
+        android:layout_width="57dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="305dp"
+        android:layout_marginBottom="285dp"
+        android:foreground="@drawable/steps" />
+
+    <View
+        android:id="@+id/urdayicon"
+        android:layout_width="58dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="309dp"
+        android:layout_marginBottom="150dp"
+        android:foreground="@drawable/smile"
+        app:navGraph="@navigation/nav" />
+
+    <View
+        android:id="@+id/watericon"
+        android:layout_width="66dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="212dp"
+        android:foreground="@drawable/watericon" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="359dp"
+        android:src="@drawable/appgif1" />
+
+    <ImageView
+        android:id="@+id/urdayicon1"
+        android:layout_width="147dp"
+        android:layout_height="161dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/frog" />
+
+    <ImageButton
+        android:id="@+id/savebutton"
+        android:layout_width="76dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="78dp"
+        android:background="#DFC4A3"
+        android:contentDescription="@string/save_button_icon"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:src="@drawable/saveicon"
+        tools:ignore="SpeakableTextPresentCheck,RedundantDescriptionCheck,ImageContrastCheck" />
+
+
+</RelativeLayout>
+
+
+
